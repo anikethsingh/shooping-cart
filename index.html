@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopCart</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <nav>
+      <div class="logo">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <h2>ShopCart</h2>
+      </div>
+
+      <ul>
+        <li>Home</li>
+        <li class="active">Products</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+
+      <div class="icons">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-regular fa-user"></i>
+      </div>
+    </nav>
+
+    <!-- MAIN SECTION -->
+
+    <div class="container">
+      <!-- LEFT PRODUCTS -->
+
+      <div class="products">
+        <h1>Our Products</h1>
+
+        <div class="product-grid">
+          <div class="card">
+            <img src="https://picsum.photos/250?1" />
+
+            <h3>Wireless Headphones</h3>
+
+            <p>₹1999</p>
+
+            <button>Add To Cart</button>
+          </div>
+
+          <div class="card">
+            <img src="https://picsum.photos/250?2" />
+
+            <h3>Smart Watch</h3>
+
+            <p>₹<span class="price">2499</span></p>
+
+            <button>Add To Cart</button>
+          </div>
+
+          <div class="card">
+            <img src="https://picsum.photos/250?3" />
+
+            <h3>Sneakers</h3>
+
+            <p>₹2999</p>
+
+            <button>Add To Cart</button>
+          </div>
+
+          <div class="card">
+            <img src="https://picsum.photos/250?4" />
+
+            <h3>Backpack</h3>
+
+            <p>₹1499</p>
+
+            <button>Add To Cart</button>
+          </div>
+
+          <div class="card">
+            <img src="https://picsum.photos/250?5" />
+
+            <h3>Sunglasses</h3>
+
+            <p>₹999</p>
+
+            <button>Add To Cart</button>
+          </div>
+
+          <div class="card">
+            <img src="https://picsum.photos/250?6" />
+
+            <h3>Perfume</h3>
+
+            <p>₹1299</p>
+
+            <button>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT CART -->
+
+      <div class="cart-panel">
+
+    <h2>Your Cart (<span class="cart-count">0</span>)</h2>
+
+    <div class="cart-items"></div>
+
+
+        <div class="total">
+          <h3>Total</h3>
+
+          <h1 class="total-price"></h1>
+        </div>
+
+        <button class="checkout">Proceed To Checkout</button>
+      </div>
+    </div>
+  </body>
+</html>
